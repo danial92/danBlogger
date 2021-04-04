@@ -1,0 +1,42 @@
+.writing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 144px;
+    height: 100vh;
+}
+
+.write-blog {
+    padding: 5px;
+    border-radius: 16px;
+}
+
+.write-blog:focus {
+    outline: none;
+}
+
+.myBlog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 346px;
+}
+
+.title, .description {
+    padding: 3px 12px;
+    margin: 5px 0px;
+    width: 22vw;
+    height: 2.5rem;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+
+.title, .description:focus {
+    outline: none;
+}
+
+#submit {
+    margin-top: 5px;
+}

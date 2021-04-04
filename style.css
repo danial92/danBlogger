@@ -1,0 +1,16 @@
+.container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.card {
+    margin: 30px;
+    width: 55vw;
+}

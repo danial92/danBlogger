@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(245, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 25rem;
+    width: 32rem;
+    border-radius: 15px;
+}
+
+.sign h1 {
+    margin-bottom: 10px;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myInput {
+    padding: 3px 12px;
+    margin: 5px 0px;
+    width: 22vw;
+    height: 2.5rem;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+
+.myInput:focus {
+    outline: none;
+}
+
+.btn {
+    padding: 10px 7px;
+    color: white;
+    background: black;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 4rem;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.login {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-login{
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 2px 0px;
+    color: white;
+    background: black;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: white;
+    color: black;
+}

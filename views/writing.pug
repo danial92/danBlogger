@@ -1,0 +1,14 @@
+extends base.pug
+
+block style
+    style
+        include writing.css
+    
+    block content 
+        div.writing
+            h1 Write Your Blog
+            form(method="post" action="/writing" class="myBlog")
+                input(name="title" class="title" placeholder="Enter Your Title...")
+                input(name="description" class="description" placeholder="Enter Your Description...") 
+                textarea(class="write-blog" name="blog", cols="48.5", rows="20" placeholder="Write blog...")
+                button#submit Submit

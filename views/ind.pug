@@ -1,0 +1,17 @@
+extends base.pug
+
+block style
+    style
+        include ind.css
+    
+    block content 
+    div.main
+        h1 Preview
+        div.main-1
+            h2= blog.title
+            h3= blog.description
+            p= blog.blog
+    -var bid = blog.id
+    div.btn-div
+        a(href="/edit/" + bid) Edit
+        a(href="/" style="margin-left: 15px") All Articles

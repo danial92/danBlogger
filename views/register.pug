@@ -1,0 +1,14 @@
+block style
+    style
+        include register.css 
+block content
+        div.sign 
+            h1 Sign Up Here
+            form(action="/blogs/register", method="post", class="myForm")
+                input(type="text", class="myInput", name="name" placeholder="Enter Your Name...")
+                input(type="text", class="myInput", name="email" placeholder="Enter Your Email...")
+                input(type="password", class="myInput", name="password" placeholder="Enter Your password...")
+                button.btn Register
+            div(class="login")
+                p Already have an Account?
+                a(class="btn-login" href="/blogs/login") Login

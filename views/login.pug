@@ -1,0 +1,13 @@
+block style
+    style
+        include login.css 
+block content
+        div.sign 
+            h1 Login
+            form(action="/blogs/login", method="post", class="myForm")
+                input(type="text", class="myInput", name="email" placeholder="Enter Your Email...")
+                input(type="password", class="myInput", name="password" placeholder="Enter Your password...")
+                button.btn Log In
+            div(class="register")
+                p Don't have an Account?
+                a(class="btn-register" href="/blogs/register") Register

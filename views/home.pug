@@ -1,0 +1,26 @@
+extends base.pug
+
+//- block scripts
+//-         script(src='../static/index.js')
+
+block style
+    style
+        include home.css
+    
+    block content 
+    div.main
+            h1=name 
+            div.blogs
+                - 
+                each article in articles
+                  div.blog
+                    h2= article.title
+                    h4= article.description
+                    p= article.blog
+                    - var bid = article.id // bid -> blog id
+                    div.btn-div
+                        a(id="more-btn" href="/" + bid) Read More
+                        a(id="edit-btn" href="/edit/" + bid) Edit
+                        form(action="/" + bid + "?_method=DELETE" method="POST")
+                            button(type="submit" id="dlt-btn") Delete
+                a(id="blog-btn" href="/writing") Write Blog

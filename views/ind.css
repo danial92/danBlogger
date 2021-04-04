@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(245, 241, 241);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.main-1 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 2rem 0rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    padding: 1rem;
+}
+
+a {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px black solid;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-div {
+    display: flex;
+    margin-left: 1.5em;
+}

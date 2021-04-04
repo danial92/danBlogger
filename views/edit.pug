@@ -1,0 +1,15 @@
+extends base.pug
+
+block style
+    style
+        include edit.css
+    
+    block content 
+    div.main
+            h1 Write Your Blog
+            - var bid = blog.id
+            form(method="post" action="/" + bid + "?_method=PUT" class="myBlog")
+                input(name="title" value=(blog.title) class="title" placeholder="Enter Your Title...")
+                input(name="description" value=(blog.description) class="description" placeholder="Enter Your Description...")
+                textarea( class="write-blog" name="blog", cols="50", rows="20")= blog.blog
+                button#submit Submit

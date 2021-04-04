@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(245, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sign {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 32rem;
+    border-radius: 15px;
+}
+
+.sign h1 {
+    margin-bottom: 10px;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myInput {
+    padding: 3px 12px;
+    margin: 5px 0px;
+    width: 22vw;
+    height: 2.5rem;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+
+.myInput:focus {
+    outline: none;
+}
+
+.btn {
+    padding: 0.5rem;
+    color: white;
+    background: black;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 4rem;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.register {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-register{
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 2px 0px;
+    color: white;
+    background: black;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.btn-register:hover {
+    background-color: white;
+    color: black;
+}

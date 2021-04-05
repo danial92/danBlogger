@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "This is my blog website",
   "main": "app.js",
-  "engines": { "node": "app.js" },
   "scripts": {
     "serve": "nodemon app.js"
   },
